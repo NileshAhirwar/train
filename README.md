@@ -1,7 +1,4 @@
 # train
-
-# Training
-
 This repository contains the code for a training application.
 
 ## Getting Started
