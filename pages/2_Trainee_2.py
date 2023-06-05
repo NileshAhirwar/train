@@ -19,7 +19,7 @@ from email_validator import validate_email, EmailNotValidError
 from googleapiclient.http import MediaFileUpload
 
 def transcribe():
-    aai.settings.api_key = "8cdbf17923c848e0ad5b22fc9ad7ceec"
+    aai.settings.api_key = ""
     transcriber = aai.Transcriber()
     transcript = transcriber.transcribe("temp_audio.wav")
     return transcript.text
