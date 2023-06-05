@@ -62,21 +62,6 @@ key_col1, key_col2, key_col3 = st.columns(3)
 
 if 'QB_name' not in st.session_state:
     st.session_state.QB_name = ''
-if 'token_businessbot' not in st.session_state:
-    os.environ['token_businessbot'] = r'''{
-    "type": "service_account",
-    "project_id": "train-388611",
-    "private_key_id": "a7d65525b8266493a8d51c197e005758906bb153",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCMYQWLn73jp7k/\n5b+hoMyQkwaaSXZ6s6MRC0FQHQkWMhtLL4bQpKtsp0K8afxwZbBSjoehkJ/sg2L3\nmeA3b4o6hnvq3u+0rse0krftakbxBVtIP5DY+QNiNuvE15vv58mUMhI20TMVweN1\nm5g0NqgRvlt0k1IOKhiItV25eB7ExN6kl5eXNEz7PmDGOgxk3uw7/qibLZXZp0ft\nRMwI0W95b4rgnj4hCNrmttFkOOPql8ML4wYt7f/XBbDSXCIw8KQyjSo3OTLOazJX\nw0JXeT1dtK1BAYtOkAqUFr32zySi6HWaiShbHfqqA0YVlNI1t7W3XLVPZPXDlz0c\nPCmq6m01AgMBAAECggEAI+Ho+PesIjUNNTgU88uWfp4WYfnFPzgLxp+J4mCJohLM\nxzsuysZMy0k11dOBo3layL+GC9ZcCqjK819x4LmyK6OUqUSzIQxMH+wg957i41jr\nLFyTOeLs6n3/ZiF2yqwE6syhu0FePYGCEt3i2fXeoCp4ViQSJWy9OLSjcHUz6DfJ\nfvve/2W52EzxHDDX/lUKnoog8Sxbuoht+FT1Yt1aZ0rpx3ubA9EljvdhSjyx6zco\nGzHnh0q9fGPwZVSMG7R5hJTOTlRgnlm0OTkmZ/3HHDhIcwZ2Ujr8Vwgr0S9p8U2u\ngnBp8aGLCPP1eya5v2RxlBnT7+oYVOJ356goX1G9QQKBgQDCjzb46aCSgO3yUIhY\n2meuXVSSi0XJcGkFWes11DzEar+fuH0oPhmxD8+f25g6t9wVknVvFdv5XssFdP+q\n65Q/QYZKGnmNQSh9gqgvmlGqfkeMr2EFFqosHWOm/kTo/5JZek6Ke2tSRoC2+jtg\nm1hijz9Bpt26H/wBqZdolzTiBwKBgQC4tbFWntWauM33AA5OU73Eif31293SLIqp\nQeJNOPClHkEj2JTxtUUWRu9CIrLQMtbEbBJY2TJ4yly0g6xl6DHFI6poQWJCupTS\nX4mYtj6SOyBHwwjJU0NK/pO/yHHbSnah3redmRqf6j/VDLyjojlpRr+uri6YUsDv\nft42kjW34wKBgCpwwzUZAYXzyfQJzTRUsDlA8qnk55xBgSdBriVX3smZ36Mfw217\n3m7ZXBkq9dIZOVEbWbKZuhpzqyXNl9fY+8WwrXKMw+ckR4jZb4ayyw297i2qNCfA\nAe8NmidbX/zTg0ExhOCAe7C+4GUJwNoaCPW2+b2AgO2Q/JAARp7yHP8RAoGAU2kh\nQyeI+Ey6He91hmOEj6ts9sip/A5HM7Xf1tV+vmHSMrjMUfZ002GHDAuVSjWbDKpt\nAphalXd0s8O+Z2qahxbbDidwkwekyvd/sGmkCe8PXbiyUA/8lHIwEGwZFlkjB2gG\n7PFFt69V0gTlbtOEL4lWaDCaNAkyvTRCbsxJ29cCgYBEqXzwdS9GtKHBcTeWZ9Pl\nIX7/cwZx2+K67R1JORS6p3aPSkedeDIkBuwXMsa9DmLQSqO/xd/olqDhM6nGpftC\nlBuDJPHU+DPgtj5xnf0tTd/b+Joq+LUytI295ddM9xQToYEWNS0qXWC1eaiyN2T6\nMdNkU/BgOBgTevLRFptmCg==\n-----END PRIVATE KEY-----\n",
-    "client_email": "sheetsgpt@train-388611.iam.gserviceaccount.com",
-    "client_id": "109770852462207026251",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sheetsgpt%40train-388611.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
-    }
-    '''
 
 
 @st.cache_resource
