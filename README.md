@@ -7,7 +7,7 @@ To run the application, make sure you have the necessary dependencies installed.
 
 ```shell
 pip install -r requirements.txt
-```shell
+shell```
 
 Once the dependencies are installed, you can start the application by running the following command:
 
