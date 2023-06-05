@@ -1,0 +1,17 @@
+streamlit
+pandas
+openai
+google-auth
+google-auth-oauthlib
+google-api-python-client
+google-auth-httplib2
+dotenv
+google-api-core
+pydantic
+speechrecognition
+streamlit-star-rating
+audio-recorder-streamlit
+gtts
+IPython
+assemblyai
+email-validator
